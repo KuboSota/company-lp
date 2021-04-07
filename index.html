@@ -10,7 +10,7 @@
 
   <body>
     <div id="eye-catch">
-    <div class="header">
+    <div id="header" :class="{change_color: scrollPosition > 800}">
       <div class="header-contents">
         <div class="header-left">
           <p>SimpleLP</p>
@@ -248,17 +248,17 @@
           <form class="form" method="post">
             <div class="flex">
               <div class="form-field">
-                <input class="input js-input" type="text" id="name" name="user_name" />
-                <label class="label" for="name">Name</label>
+                <input @click="upName()" v-model="NameInput"  class="input js-input" type="text" id="name" name="user_name" />
+                <label class="label" :class="{slideText:slideName}" for="name">Name</label>
               </div>
               <div class="form-field">
-                <input :click="upText()" class="input js-input" type="email" id="mail" name="user_mail" />
-                <label class="label" for="mail">E-mail</label>
+                <input @click="upEmail()" v-model="EmailInput"  class="input js-input" type="email" id="mail" name="user_mail" />
+                <label class="label" :class="{slideText:slideEmail}" for="mail">E-mail</label>
               </div>
             </div>
               <div class="form-field msg-field">
-              <input id="msg" class="input js-input" name="user_message"></textarea>
-              <label class="label" for="msg">Message</label>
+              <input @click="upMessage()" v-model="MessageInput" id="msg" class="input js-input" name="user_message"></textarea>
+              <label class="label" :class="{slideText:slideMessage}" for="msg">Message</label>
             </div>
             <div class="button-submit">
               <button class="button" type="submit">送る</button>
@@ -274,8 +274,9 @@
       
       
     </div>
-    
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> 
+    <script src="main.js"></script>
   </body>
 
 </html>
