@@ -274,7 +274,7 @@ body {
   position: relative;
 }
 
-#eye-catch h1 {
+.eye-catch-text{
   position: absolute;
   top: 600px;
   left: unset;
@@ -283,6 +283,11 @@ body {
   font-size: 50px;
   padding: 10px;
   /* background-color: rgba(79, 72, 72, 0.5); */
+}
+
+.eye-catch-text h2 {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 #about {
@@ -487,7 +492,7 @@ body {
 }
 
 .production-price {
-  background-image: url(../img/startup-593341_1280.jpg);
+  background-image: url(../img/people-690810_1920.jpg);
   background-position: center;
   background-size: cover;
 }
