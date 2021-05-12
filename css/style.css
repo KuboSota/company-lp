@@ -186,17 +186,24 @@ body {
   /* border-bottom: silver solid 1px; */
 }
 
+.title {
+ padding: 60px auto 0;
+ text-align: center;
+}
+
 .section-title {
-  margin: 0 60px;
-  text-align: center;
   font-size: 100px;
   font-family: serif, sans-serif;
   font-weight: 500;
 }
 
+.section-sub-title {
+  font-size: 20px;
+  margin-top: 10px;
+}
 .left {
   text-align: left;
-  
+  margin-left: 60px;
 }
 
 .section-contents {
@@ -300,6 +307,11 @@ body {
   height: 180px;
 }
 
+/* .message-back-block {
+  background: #d55959;
+  width: 600px;
+  height: 100px;
+} */
 .about-textarea {
   position: relative;
   flex: 1;
@@ -340,12 +352,12 @@ body {
   background-repeat: no-repeat;
 }
 
-#service .section-title {
-  padding: 0 0 50px;
-}
 
 .bg-mask {
   background: rgba(255, 255, 255, 0.5);
+}
+.small-mask {
+  background: rgba(255, 255, 255, 0.3);
 }
 .service-contents {
   justify-content: space-between;
@@ -419,6 +431,38 @@ body {
   text-align: center;
 }
 
+.works {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 60px auto 0;
+}
+
+.past-works,
+.production-process {
+  width: 45%;
+  height: 300px;
+}
+
+.past-works {
+  background-image: url(../img/books-2596809_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.production-process {
+  background-image: url(../img/startup-593341_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.works-title {
+  color: #272729;
+  font-size: 30px;
+  text-align: center;
+  line-height: 300px;
+}
+
 #news {
   background-color: #f9f9f9;
 }
@@ -466,16 +510,12 @@ body {
   position: relative;
 }
 
-#recruit .section-title {
-  position: absolute;
-  top: 10%;
-}
 
 #recruit .section-contents {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 45%;
+  transform: translate(-45%, -50%);
   text-align: center;
 }
 
@@ -490,9 +530,10 @@ body {
 }
 
 .recruit-btn button {
+  display: block;
   background-color: #fff;
   border: solid 1px;
-  margin-top: 50px;
+  margin: 50px auto 0;
   cursor: pointer;
 }
 
@@ -516,7 +557,6 @@ body {
 .company-contents {
   width: 85%;
   margin: 60px auto 0;
-  /* margin-top: 60px; */
   justify-content: space-between;
 }
 

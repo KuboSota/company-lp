@@ -10,7 +10,7 @@
 
   <body>
     <div id="eye-catch">
-    <div id="header" :class="{change_color: scrollPosition > 800}">
+    <header id="header" :class="{change_color: scrollPosition > 800}">
       <div class="header-contents">
         <div class="header-left">
           <p>SimpleLP</p>
@@ -29,10 +29,10 @@
           </nav>
         </div>
       </div>
-    </div>
+    </header>
       <h1>未来を変える、チャンスがある。</h1>  
-    </div>
-    <div id="about">
+  </div>
+    <section id="about">
       <div class="container">
         <div class="section-contents flex">
           <div class="about-imgarea flex">
@@ -44,23 +44,34 @@
             <img src="./img/digital-marketing-1725340_1280.webp" alt="#">
           </div>
           <div class="about-textarea">
-            <div class="section-title">
-              <h2>About</h2>
+           <div class="title">
+
+             <div class="section-title">
+               <h2>About</h2>
+              </div>
+              <div class="section-sub-title">
+                <h4>私たちについて</h4>
+              </div>
             </div>
             <div class="message">
+              <div class="message-back-block"></div>
               <h3 class="main-message">人と人をつなぐ使命を果たすために</h3>
               <p class="message-text">我が社では、様々なデータを研究・分析し、そのうえで最適なプランを提供しております。常にプロ意識を持ち、共に仲間と支え合い、次なる時代を一緒に。</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="service">
+    </section>
+    <section id="service">
       <div class="bg-mask">
-
         <div class="container">
-          <div class="section-title left">
-            <h2>Service</h2>
+          <div class="title">
+            <div class="section-title left">
+              <h2>Service</h2>
+            </div>
+            <div class="section-sub-title left">
+              <h4>サービス</h4>
+            </div>
           </div>
           <div class="section-contents">
             <div class="service-message">
@@ -114,15 +125,21 @@
         </div>
       </div>
      
-    </div>
+    </section>
     
-    <div id="company">
+<section id="ckompany">
       <div class="container">
-        <div class="section-title">
-          <h2>Company</h2>
+       <div class="title">
+
+         <div class="section-title">
+           <h2>Company</h2>
+          </div>
+          <div class="section-sub-title">
+            <h4>会社概要</h4>
+          </div>
         </div>
-        <div class="section-contents ">
-          <div class="company-contents flex">            
+        <div class="section-contents">
+          <div class="company-contents flex company-top">            
             <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1VG1mnBbKSsmUHJXjOMI-FFzeLeaJOlOa"></iframe>
             <div class="company-table">
               <div class="tr">              
@@ -199,14 +216,38 @@
               </div>              
           </div>
         </div>
+        <div>
+        <div class="flex">
+            <div class="works">              
+              <div class="past-works">
+                <div class="small-mask">
+                
+                <p class="works-title">過去作品</p>
+                </div>
+              </div>
+              
+              <div class="production-process">
+                <div class="small-mask">
+                <p class="works-title">制作過程</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
         </div>
       </div>
-    </div>
-     <div id="news">
+    </section>
+     <section id="news">
         <div class="container">
-          <div class="section-title">
-            <h2>News</h2>
+         <div class="title">
+
+           <div class="section-title">
+             <h2>News</h2>
+            </div>
+            <div class="section-sub-title">
+              <h4>ニュース</h4>
+            </div>
           </div>
           <div class="section-contents">
             <div class="news flex">
@@ -229,31 +270,48 @@
             <p class="genre">News</p>
             <p class="detail">サイトをリニューアルしました</p>
           </div>
+          <div class="news flex">
+            <p class="date">2020.4.15</p>
+            <p class="genre">News</p>
+            <p class="detail">サイトをオープンしました</p>
+          </div>
         </div>
-      </div>
-    </div>
-    <div id="recruit">
+    </section>
+    <section id="recruit">
+      <div class="title">
+        <div class="section-title left">Recruit</div>
+         <div class="section-sub-title left">
+             <h4>採用情報</h4>
+         </div>
+       </div>     
       <div class="container">
-        <div class="section-title">Recruit</div>
-        <div class="section-contents">
-          <div class="recruit-text">
-            <h3>世界の進化と革新を支える</h3>
-            <p>最先端の技術を持つ仲間たちと、共に変革を起こしませんか？</p>
-            <p>少しでも興味がある方は下のコンタクトフォームからご連絡ください。</p>
+         <div class="section-contents">
+           <div class="recruit-text">
+             <h3>世界の進化と革新を支える</h3>
+             <p>最先端の技術を持つ仲間たちと、共に変革を起こしませんか？</p>
+             <p>少しでも興味がある方は下のコンタクトフォームからご連絡ください。</p>
+            </div>
           </div>
           <div class="recruit-btn">
             <button class="go-contact"><a href="#contact">Contactはこちら<i class="fas fa-angle-right"></i></a></button>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     
-    <div id="contact">
+ <section id="contact">
       <div class="container">
-        <div class="section-title">
-          <h2>Contact</h2>
+       <div class="title">
+
+         <div class="section-title">
+           <h2>Contact</h2>
+          </div>
+          <div class="section-sub-title">
+            <h4>お問い合わせ</h4>
+          </div>
         </div>
         <div class="section-contents">
+          <h3 class="contact-message">お問い合わせは、以下を入力して送信してください</h3>
           <form class="form" method="post">
             <div class="flex">
               <div class="form-field">
@@ -275,7 +333,7 @@
           </form>
         </div>
       </div>
-      </div>
+ </section>
       　<footer id="footer">       
         <div class="container flex">
           <div class="footer-left">
