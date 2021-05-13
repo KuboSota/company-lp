@@ -1,402 +1,411 @@
 <!DOCTYPE html>
 <html lang="js">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  </head>
+</head>
 
-  <body>
-    <div id="eye-catch">
+<body>
+
     <header id="header" :class="{change_color: scrollPosition > 800}">
-      <div class="header-contents">
-        <div class="header-left">
-          <p>SimpleLP</p>
+        <div class="header-contents">
+            <div class="header-left">
+                <p>SimpleLP</p>
+            </div>
+            <div class="header-right">
+                <nav class="header-nav">
+                    <ul class="nav-contents">
+                        <li><a href="#eye-catch">TOP</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#service">SERVICE</a></li>
+                        <li><a href="#company">COMPANY</a></li>
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#recruit">RECRUIT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header-right">
-          <nav class="header-nav">
-            <ul class="nav-contents">
-              <li><a href="#eye-catch">TOP</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#service">SERVICE</a></li>
-              <li><a href="#company">COMPANY</a></li>
-              <li><a href="#news">NEWS</a></li>
-              <li><a href="#recruit">RECRUIT</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
     </header>
-     <div class="eye-catch-text">
-       <h1>未来を変える、チャンスがある。</h1> 
-       <h2>We have a chance to change the future</h2> 
-     </div>
-  </div>
-  <main>
-    <section id="about">
-      <div class="container">
-        <div class="section-contents flex">
-          <div class="about-imgarea flex">
-            <img src="./img/work-5382501_1920.jpg" alt="#">
-            <img src="./img/ux-788002_1920.jpg" alt="#">
-            <img src="./img/calculator-385506_1920.jpg" alt="#">
-            <img src="./img/4218498_s.jpg" alt="#">
-            <img src="./img/business-man-1031755_1920.jpg" alt="#">
-            <img src="./img/digital-marketing-1725340_1280.webp" alt="#">
-          </div>
-          <div class="about-textarea">
-           <div class="title">
-
-             <div class="section-title">
-               <h2>About</h2>
-              </div>
-              <div class="section-sub-title">
-                <h3>私たちについて</h3>
-              </div>
-            </div>
-            <div class="message">
-              <div class="message-back-block"></div>
-              <h3 class="main-message">人と人をつなぐ使命を果たすために</h3>
-              <p class="message-text">我が社では、様々なデータを研究・分析し、そのうえで最適なプランを提供しております。常にプロ意識を持ち、共に仲間と支え合い、次なる時代を一緒に。</p>
-            </div>
-             <div class="about-btn">
-            <button class="go-contact"><a href="#contact">お問い合わせはこちら<i class="fas fa-angle-right"></i></a></button>
-          </div>
-          </div>
+    <div id="eye-catch">
+        <div class="eye-catch-text">
+            <h1>未来を変える、チャンスがある。</h1>
+            <h2>We have a chance to change the future</h2>
         </div>
-      </div>
-    </section>
-    <section id="service">
-      <div class="bg-mask">
-        <div class="container">
-          <div class="title">
-            <div class="section-title left">
-              <h2>Service</h2>
-            </div>
-            <div class="section-sub-title left">
-             <h3>サービス</h3>
-            </div>
-          </div>
-          <div class="section-contents">
-            <div class="service-message">
-              <h3>お客様を第一に考え、</h3>
-              <h3>これからの未来に貢献できるように。</h3>
-            </div>
-            <div class="service-contents flex">
+    </div>
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="section-contents flex">
+                    <div class="about-imgarea flex">
+                        <img src="./img/work-5382501_1920.jpg" alt="#">
+                        <img src="./img/ux-788002_1920.jpg" alt="#">
+                        <img src="./img/calculator-385506_1920.jpg" alt="#">
+                        <img src="./img/4218498_s.jpg" alt="#">
+                        <img src="./img/business-man-1031755_1920.jpg" alt="#">
+                        <img src="./img/digital-marketing-1725340_1280.webp" alt="#">
+                    </div>
+                    <div class="about-textarea">
+                        <div class="title">
+                            <h2 class="section-title">About</h2>
 
+                            <div class="section-sub-title">
+                                <h3>私たちについて</h3>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="message-back-block"></div>
+                            <h3 class="main-message">人と人をつなぐ使命を果たすために</h3>
+                            <p class="message-text">我が社では、様々なデータを研究・分析し、そのうえで最適なプランを提供しております。常にプロ意識を持ち、共に仲間と支え合い、次なる時代を一緒に。</p>
+                        </div>
+                        <div class="about-btn">
+                            <button tabindex="1" class="go-contact"><a href="#contact">お問い合わせはこちら<i class="fas fa-angle-right"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
+            <div class="bg-mask">
+                <div class="container">
+                    <div class="title">
 
-              <div class="service-item item-1">
-                <p class="service-number">01</p>
-                <div class="service-item-contents">
-                  <img class="service-img" src="img/digital-marketing-1725340_1280.webp" alt="#">
-                  <div class="service-text">
-                    <h4 class="service-text-title">データにづいた確実な分析</h3>
-                    <p>様々なデータを集め、その中から信頼できるものだけを参考にし、今後の動きなどを予測します。</p>
-                  
-                  </div>
-                </div>
-                </div>
+                        <h2 class="section-title left">Service</h2>
+
+                        <div class="section-sub-title left ">
+                            <h3>サービス</h3>
+                        </div>
+                    </div>
+                    <div class="section-contents ">
+                        <div class="service-message ">
+                            <h3>お客様を第一に考え、</h3>
+                            <h3>これからの未来に貢献できるように。</h3>
+                        </div>
+                        <div class="service-contents flex ">
 
 
-              <div class="service-item item-2">
-                <p class="service-number">02</p>
+                            <div class="service-item item-1 ">
+                                <p class="service-number ">01</p>
+                                <div class="service-item-contents ">
+                                    <img class="service-img " src="img/digital-marketing-1725340_1280.webp " alt="# ">
+                                    <div class="service-text ">
+                                        <h3 class="service-text-title ">データにづいた確実な分析</h3>
+                                        <p>様々なデータを集め、その中から信頼できるものだけを参考にし、今後の動きなどを予測します。</p>
 
-                <div class="service-item-contents">
-                  <img class="service-img" src="img/entrepreneur-1340649_1920.jpg" alt="#">
-                  <div class="service-text">
-                    <h4 class="service-text-title">字に表れる結果を</h3>
-                  
-                    <p>数字に結果表れ、目に見えるような結果を出すために、丁寧なお仕事を心掛けております。</p>
-                  </div>
-                </div>
-                </div>
-              <div class="service-item item-3">
-                <p class="service-number">03</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                <div class="service-item-contents">
-                  <img class="service-img" src="img/4401607_s.jpg" alt="#">
-                  <div class="service-text">
-                    <h4 class="service-text-title">お客様を第一に</h4>
-                    <p>お客様に信頼していただけるように、お客様のことを第一に考えています。</p>
-        
-                  </div>
-                </div>
-                </div>
-            </div>
-          </div>
-            
-          </div>
-        </div>
-      </div>
-     
-    </section>
-    
-<section id="ckompany">
-      <div class="container">
-       <div class="title">
 
-         <div class="section-title">
-           <h2>Company</h2>
-          </div>
-          <div class="section-sub-title">
-           <h3>会社概要</h3>
-          </div>
-        </div>
-        <div class="section-contents">
-          <div class="company-contents flex company-top">            
-            <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1VG1mnBbKSsmUHJXjOMI-FFzeLeaJOlOa"></iframe>
-            <div class="company-table">
-              <div class="tr">              
-                <div class="th">
-                  <h3>住所</h3>
-                </div>
-                <div class="td">
-                  <p>○○県○○市 ○○○○○○ 0000‐00</p>
-                </div>
-              </div>
-              <div class="tr">
-                <div class="th">
-                  <h3>電話番号</h3>
-                </div>
-                <div class="td">
-                  <p>00-0000-0000</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>設立</h3>
-                </div>
-                <div class="td">
-                  <p>2006年6月15日</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>資本金</h3>
-                </div>
-                <div class="td">
-                  <p>1,000万</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>事業内容</h3>
-                </div>
-                <div class="td">
-                  <p>ホームページ制作</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>在籍人数</h3>
-                </div>
-                <div class="td">
-                  <p>34名</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>営業時間</h3>
-                </div>
-                <div class="td">
-                  <p>9:30~17:00</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>メールアドレス</h3>
-                </div>
-                <div class="td">
-                  <p>○○○○@○○.com</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>休業日</h3>
-                </div>
-                <div class="td">
-                  <p>土・日・祝</p>
-                </div>
-              </div>              
-              <div class="tr">
-                <div class="th">
-                  <h3>代表者</h3>
-                </div>
-                <div class="td">
-                  <p>山田太郎</p>
-                </div>
-              </div>              
-          </div>
-        </div>
-        <div class="works-block">
-          <h3>過去の制作について</h3>            
-          <div class="flex">
-            <div class="works">  
-              <div class="past-works">
-                <div class="small-mask">
-                
-                <p class="works-title">過去作品</p>
-                </div>
-              </div>
-              
-              <div class="production-process">
-                <div class="small-mask">
-                <p class="works-title">制作過程</p>
-                </div>
-              </div>
-              <div class="production-price">
-                <div class="small-mask">
-                  <p class="works-title">制作費用</p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        </div>
-      </div>
-    </section>
-     <section id="news">
-        <div class="container">
-         <div class="title">
+                            <div class="service-item item-2 ">
+                                <p class="service-number ">02</p>
 
-           <div class="section-title">
-             <h2>News</h2>
-            </div>
-            <div class="section-sub-title">
-             <h3>ニュース</h3>
-            </div>
-          </div>
-          <div class="section-contents">
-            <div class="news flex">
-              <p class="date">2021.12.10</p>
-              <p class="genre">News</p>
-              <p class="detail">株主優待制度の一部変更について</p>
-            </div>
-            <div class="news flex">
-              <p class="date">2021.11.10</p>
-              <p class="genre">News</p>
-              <p class="detail">年末年始の営業につきまして</p>
-            </div>
-          <div class="news flex">
-            <p class="date">2021.9.16</p>
-            <p class="genre">Media</p>
-            <p class="detail">雑誌「media」に掲載されました</p>
-          </div>
-          <div class="news flex">
-            <p class="date">2021.8.23</p>
-            <p class="genre">News</p>
-            <p class="detail">当社におけるコロナウイルス対策について</p>
-          </div>
-          <div class="news flex">
-            <p class="date">2021.4.10</p>
-            <p class="genre">News</p>
-            <p class="detail">サイトをリニューアルしました</p>
-          </div>
-          <div class="news flex">
-            <p class="date">2020.4.15</p>
-            <p class="genre">News</p>
-            <p class="detail">サイトをオープンしました</p>
-          </div>
-        </div>
-    </section>
-    <section id="recruit">
-      <div class="title">
-        <div class="section-title left">Recruit</div>
-         <div class="section-sub-title left">
-            <h3>採用情報</h3>
-         </div>
-       </div>     
-      <div class="container">
-         <div class="section-contents">
-           <div class="recruit-text">
-             <h3>世界の進化と革新を支える</h3>
-             <p>最先端の技術を持つ仲間たちと、共に変革を起こしませんか？</p>
-             <p>少しでも興味がある方は下のコンタクトフォームからご連絡ください。</p>
-            </div>
-          </div>
-          <div class="recruit-btn">
-            <button class="go-contact"><a href="#contact">Contactはこちら<i class="fas fa-angle-right"></i></a></button>
-          </div>
-        </div>
-      </div>
-    </section>
-    
- <section id="contact">
-      <div class="container">
-       <div class="title">
+                                <div class="service-item-contents ">
+                                    <img class="service-img " src="img/entrepreneur-1340649_1920.jpg " alt="# ">
+                                    <div class="service-text ">
+                                        <h3 class="service-text-title ">字に表れる結果を</h3>
 
-         <div class="section-title">
-           <h2>Contact</h2>
-          </div>
-          <div class="section-sub-title">
-            <h3>お問い合わせ</h3>
-          </div>
+                                        <p>数字に結果表れ、目に見えるような結果を出すために、丁寧なお仕事を心掛けております。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-item item-3 ">
+                                <p class="service-number ">03</p>
+
+                                <div class="service-item-contents ">
+                                    <img class="service-img " src="img/4401607_s.jpg " alt="# ">
+                                    <div class="service-text ">
+                                        <h3 class="service-text-title ">お客様を第一に</h3>
+                                        <p>お客様に信頼していただけるように、お客様のことを第一に考えています。</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <section id="company">
+            <div class="container">
+                <div>
+                    <h2 class="section-title">Company</h2>
+                </div>
+                <div class="section-sub-title">
+                    <h3>会社概要</h3>
+                </div>
+            </div>
+            <div class="section-contents ">
+                <div class="company-contents flex company-top ">
+                    <iframe class="map " src="https://www.google.com/maps/d/embed?mid=1VG1mnBbKSsmUHJXjOMI-FFzeLeaJOlOa "></iframe>
+                    <div class="company-table ">
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>住所</h3>
+                            </div>
+                            <div class="td ">
+                                <p>○○県○○市 ○○○○○○ 0000‐00</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>電話番号</h3>
+                            </div>
+                            <div class="td ">
+                                <p>00-0000-0000</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>設立</h3>
+                            </div>
+                            <div class="td ">
+                                <p>2006年6月15日</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>資本金</h3>
+                            </div>
+                            <div class="td ">
+                                <p>1,000万</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>事業内容</h3>
+                            </div>
+                            <div class="td ">
+                                <p>ホームページ制作</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>在籍人数</h3>
+                            </div>
+                            <div class="td ">
+                                <p>34名</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>営業時間</h3>
+                            </div>
+                            <div class="td ">
+                                <p>9:30~17:00</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>メールアドレス</h3>
+                            </div>
+                            <div class="td ">
+                                <p>○○○○@○○.com</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>休業日</h3>
+                            </div>
+                            <div class="td ">
+                                <p>土・日・祝</p>
+                            </div>
+                        </div>
+                        <div class="tr ">
+                            <div class="th ">
+                                <h3>代表者</h3>
+                            </div>
+                            <div class="td ">
+                                <p>山田太郎</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works-block ">
+                    <h3>過去の制作について</h3>
+                    <div class="flex ">
+                        <div class="works ">
+                            <div class="past-works ">
+                                <div class="line-brock"></div>
+                                <div class="small-mask ">
+                                    <div class="works-title">
+                                        <p class="works-main-title ">制作事例</p>
+                                        <p class="works-sub-title">PExample</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="production-process ">
+                                <div class="line-brock"></div>
+                                <div class="small-mask ">
+                                    <div class="works-title">
+                                        <p class="works-main-title ">制作過程</p>
+                                        <p class="works-sub-title"> Process</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="production-price ">
+                                <div class="line-brock"></div>
+                                <div class="small-mask ">
+                                    <div class="works-title">
+                                        <p class="works-main-title">制作費用</p>
+                                        <p class="works-sub-title">Price</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="container ">
+                <div>
+                    <h2 class="section-title">News</h2>
+                </div>
+                <div class="section-sub-title ">
+                    <h3>ニュース</h3>
+                </div>
+            </div>
+            <div class="section-contents ">
+                <div class="news flex ">
+                    <p class="date ">2021.12.10</p>
+                    <p class="genre ">News</p>
+                    <p class="detail ">株主優待制度の一部変更について</p>
+                </div>
+                <div class="news flex ">
+                    <p class="date ">2021.11.10</p>
+                    <p class="genre ">News</p>
+                    <p class="detail ">年末年始の営業につきまして</p>
+                </div>
+                <div class="news flex ">
+                    <p class="date ">2021.9.16</p>
+                    <p class="genre ">Media</p>
+                    <p class="detail ">雑誌「media」に掲載されました</p>
+                </div>
+                <div class="news flex ">
+                    <p class="date ">2021.8.23</p>
+                    <p class="genre ">News</p>
+                    <p class="detail ">当社におけるコロナウイルス対策について</p>
+                </div>
+                <div class="news flex ">
+                    <p class="date ">2021.4.10</p>
+                    <p class="genre ">News</p>
+                    <p class="detail ">サイトをリニューアルしました</p>
+                </div>
+                <div class="news flex ">
+                    <p class="date ">2020.4.15</p>
+                    <p class="genre ">News</p>
+                    <p class="detail ">サイトをオープンしました</p>
+                </div>
+            </div>
+        </section>
+        <section id="recruit">
+            <div class="container">
+                <h2 class="section-title left">Recruit</h2>
+                <div class="section-sub-title left">
+                    <h3>採用情報</h3>
+                </div>
+                <div class="section-contents ">
+                    <div class="recruit-text ">
+                        <h3>世界の進化と革新を支える</h3>
+                        <p>最先端の技術を持つ仲間たちと、共に変革を起こしませんか？</p>
+                        <p>少しでも興味がある方は下のコンタクトフォームからご連絡ください。</p>
+                    </div>
+                </div>
+                <div class="recruit-btn ">
+                    <button class="go-contact "><a href="#contact ">Contactはこちら<i class="fas fa-angle-right "></i></a></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact ">
+            <div class="container ">
+                <h2 class="section-title ">Contact</h2>
+
+                <div class="section-sub-title ">
+                    <h3>お問い合わせ</h3>
+                </div>
+                <div class="section-contents ">
+                    <h4 class="contact-message ">お問い合わせは、以下を入力して送信してください</h4>
+                    <form class="form " method="post ">
+                        <div class="flex ">
+                            <div class="form-field ">
+                                <input @click="upName() " v-model="NameInput " class="input js-input " type="text " id="name " name="user_name " />
+                                <label class="label " :class="{slideText:slideName} " for="name ">Name</label>
+                            </div>
+                            <div class="form-field ">
+                                <input @click="upEmail() " v-model="EmailInput " class="input js-input " type="email " id="mail " name="user_mail " />
+                                <label class="label " :class="{slideText:slideEmail} " for="mail ">E-mail</label>
+                            </div>
+                        </div>
+                        <div class="form-field msg-field ">
+                            <input @click="upMessage() " v-model="MessageInput " id="msg " class="input js-input " name="user_message "></textarea>
+                            <label class="label " :class="{slideText:slideMessage} " for="msg ">Message</label>
+                        </div>
+                        <div class="button-submit ">
+                            <button class="button " type="submit ">送る</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container flex ">
+            <div class="footer-left ">
+                <h2>LP Sample</h2>
+            </div>
+            <div class="footer-right flex ">
+                <div class="menu ">
+                    <p>top</p>
+                    <p>about</p>
+                    <p>company</p>
+                    <p>news</p>
+                    <p>recruit</p>
+                    <p>contact</p>
+                </div>
+                <div class="rule1 ">
+                    <p>特定商取引法に基づく記載</p>
+                    <p>プライバシーポリシー</p>
+                    <p>運営会社</p>
+                </div>
+                <div class="rule2 ">
+                    <p>利用規約</p>
+                    <p>お問い合わせ</p>
+                </div>
+            </div>
         </div>
-        <div class="section-contents">
-          <h5 class="contact-message">お問い合わせは、以下を入力して送信してください</h5>
-          <form class="form" method="post">
-            <div class="flex">
-              <div class="form-field">
-                <input @click="upName()" v-model="NameInput"  class="input js-input" type="text" id="name" name="user_name" />
-                <label class="label" :class="{slideText:slideName}" for="name">Name</label>
-              </div>
-              <div class="form-field">
-                <input @click="upEmail()" v-model="EmailInput"  class="input js-input" type="email" id="mail" name="user_mail" />
-                <label class="label" :class="{slideText:slideEmail}" for="mail">E-mail</label>
-              </div>
-            </div>
-              <div class="form-field msg-field">
-              <input @click="upMessage()" v-model="MessageInput" id="msg" class="input js-input" name="user_message"></textarea>
-              <label class="label" :class="{slideText:slideMessage}" for="msg">Message</label>
-            </div>
-            <div class="button-submit">
-              <button class="button" type="submit">送る</button>
-            </div>
-          </form>
-        </div>
-      </div>
- </section>
- </main>
-      　<footer id="footer">       
-        <div class="container flex">
-          <div class="footer-left">
-            <h2>LP Sample</h2>
-          </div>
-          <div class="footer-right flex">
-            <div class="menu">
-              <p>top</p>
-              <p>about</p>
-              <p>company</p>
-              <p>news</p>
-              <p>recruit</p>
-              <p>contact</p>
-            </div>
-            <div class="rule1">
-              <p>特定商取引法に基づく記載</p>
-              <p>プライバシーポリシー</p>
-              <p>運営会社</p>
-            </div>
-            <div class="rule2">
-              <p>利用規約</p>
-              <p>お問い合わせ</p>
-            </div>              
-            </div>
-          </div>
         </div>
         <small>Copyright 2019 aaaaaaa All Rights Reserved.</small>
-      </footer>
-        
-      
-      
-    </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> 
-    <script src="main.js"></script>
-  </body>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>
 
 </html>
