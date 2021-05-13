@@ -191,7 +191,7 @@ section {
 }
 
 .container {
-    margin: 0 60px;
+    margin: 120px;
     /* border-bottom: silver solid 1px; */
 }
 
@@ -218,7 +218,7 @@ section {
 }
 
 .section-contents {
-    margin: 60px;
+    /* margin: 60px; */
     /* width: 100%; */
 }
 
@@ -342,12 +342,18 @@ section {
     margin: 0;
 }
 
-.about-btn button {
+.about-btn .go-contact {
     display: block;
+    width: 200px;
     background-color: #fff;
     border: solid 1px;
     margin: 50px 0;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.about-btn a {
+    text-align: center;
 }
 
 .message {
@@ -381,8 +387,8 @@ section {
 }
 
 .bg-mask {
-    padding-bottom: 70px;
-    background: rgba(255, 255, 255, 0.5);
+    /* padding-bottom: 70px;
+    background: rgba(255, 255, 255, 0.5); */
 }
 
 .small-mask {
@@ -464,7 +470,7 @@ section {
 }
 
 .company-contents {
-    width: 85%;
+    /* width: 85%; */
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -507,6 +513,19 @@ section {
 .works-block {
     margin-top: 100px;
     text-align: center;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.back-color {
+    position: absolute;
+    top: -60px;
+    left: -120px;
+    width: 70%;
+    height: 1300px;
+    background-color: rgb(143, 189, 255, 0.3);   
+    z-index: -1; 
 }
 
 .works-block h3 {
@@ -515,38 +534,39 @@ section {
 }
 
 .works {
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
+    width: 100%;
     margin: 60px auto 0;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
 }
+
+
 
 .past-works,
 .production-process,
 .production-price {
-    width: 30%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.3);    
+    margin: 100px 0;
+}
+
+
+.production-process {
+    margin-left: auto
+}
+
+.text-brock {
     height: 300px;
+    width: 100%;
     position: relative;
 }
 
-.past-works {
-    background-image: url(../img/books-2596809_1920.jpg);
-    background-position: center;
-    background-size: cover;
+.works-img img{
+    display: block;
+    height: 300px;
+    width: 100%;
+    
 }
-
-.production-process {
-    background-image: url(../img/startup-593341_1280.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.production-price {
-    background-image: url(../img/san-francisco-2228872_1920.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
 .line-brock {
     position: absolute;
     z-index: 100;
@@ -559,7 +579,7 @@ section {
 }
 
 .works-title {
-    height: 300px;
+    height: 180px;
     padding-top: 120px;
 }
 
@@ -578,7 +598,7 @@ section {
     border-radius: 10px;
     border: #0d0d0e 1px solid;
     margin-top: 20px;
-    background-color: rgba(197, 193, 193, 0.3);
+    background-color: rgba(197, 193, 193, 0);
 }
 
 #news {
@@ -643,16 +663,19 @@ section {
     margin-bottom: 10px;
 }
 
-.recruit-btn button {
+.recruit-btn .go-contact {
     display: block;
+    width: 200px;
     background-color: #fff;
     border: solid 1px;
     margin: 50px auto 0;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .go-contact a {
     display: block;
+    text-align: center;
     width: 200px;
     height: 55px;
     line-height: 55px;
@@ -665,16 +688,14 @@ section {
 }
 
 #contact {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+    padding-bottom: 0;
 }
 
 #contact .section-contents {
     margin-top: 30px;
 }
 
-#contact .container {
-    padding: 60px 0;
-}
 
 .contact-message {
     text-align: center;
@@ -707,6 +728,7 @@ section {
     border-right: none;
     font-family: Lusitana, serif;
     outline: none;
+        /* background-color: #f9; */
 }
 
 .label {
@@ -750,7 +772,12 @@ section {
 }
 
 .footer-left h2 {
-    font-size: 24px;
+    font-size: 40px;
+}
+
+.phone-number,
+.mail-address {
+    margin-top: 20px;
 }
 
 .menu,
