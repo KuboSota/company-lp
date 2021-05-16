@@ -379,11 +379,11 @@ section {
     background-image: url(../img/4250633_m.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0;
+    padding: 0 0 10px 0;
 }
 
 #service .section-title {
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .bg-mask {
